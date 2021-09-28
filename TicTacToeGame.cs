@@ -20,15 +20,11 @@ namespace Tic_Tac_Toe
 
 		public void Select()
 		{
-
-
-			Console.WriteLine("Enter your Choice");
+                        Console.WriteLine("Enter your Choice");
 			Console.WriteLine("1. you will choose X");
 			Console.WriteLine("2. you will choose O  ");
 			int option = Convert.ToInt32(Console.ReadLine());
-
-
-			switch (option)
+                        switch (option)
 			{
 				case 1:
 					Console.WriteLine("");
